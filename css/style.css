@@ -1,0 +1,63 @@
+html {
+    box-sizing: border-box;
+    overflow-x: hidden;
+    -webkit-overflow-x: hidden;
+    -moz-overflow-x: hidden;
+    -o-overflow-x: hidden;
+    -ms-overflow-x: hidden;
+    margin: auto;
+    background-color: #fff;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    width: 1440px;
+    margin: 0 auto;
+    overflow: hidden;
+    overflow-x: hidden;
+    -webkit-overflow-x: hidden;
+    -moz-overflow-x: hidden;
+    -o-overflow-x: hidden;
+    -ms-overflow-x: hidden;
+}
+
+.body__link {
+    text-decoration: none;
+    color: aqua;
+}
+
+.body__p {
+    color: white;
+    font-size: 36px;
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    background-image: url(../img/dombai.png);
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
