@@ -61,3 +61,59 @@ body {
     background-repeat: no-repeat;
 
 }
+
+.card__list {
+    display: flex;
+    width: 940px;
+}
+
+.List__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.title__header {
+    color: #070707;
+    text-align: center;
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.img__man {
+    max-width: 100%;
+
+}
+
+.lorem {
+    display: flex;
+    /* max-width: 100%; */
+    text-align: left;
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card__button {
+    border: solid 3px rgba(25, 147, 208, 0.198);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background-color: rgba(48, 60, 62, 0.198);
+    color: #070707;
+    text-align: center;
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 100px;
+    height: 50px;
+}
